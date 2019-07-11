@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mad Lib</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>An Alchemy Mad Lib</header>
+    <main>
+        <h1>Enter your funny words here</h1>
+        <label>
+            A number smaller than 10: <input id="input-num-01" type="text">
+        </label>
+        <br>
+        <label>
+            A first name: <input id="input-name-01" type="text">
+        </label>
+        <br>
+        <label>
+            A middle name: <input id="input-name-02" type="text">
+        </label>
+        <br>
+        <label>
+            A noun: <input id="input-noun-01" type="text">
+        </label>
+        <br>
+        <label>
+            The name of a school or university: <input id="input-school-01" type="text">
+        </label>
+        <br>
+        <label>
+            A body part: <input id="input-body-part-01" type="text">
+        </label>
+        <br>
+        <label>
+            An adjective: <input id="input-adjective-01" type="text">
+        </label>
+        <br>
+        <label>
+            An adjective: <input id="input-adjective-02" type="text">
+        </label>
+        <br>
+        <label>
+            A large number: <input id="input-num-02" type="text">
+        </label>
+        <br>
+        <button id="storyButton" onclick="createMadLib()">Build the Story</button>
+        <h1>Here is your fantastical story</h1>
+        <p>
+            When she was <span id="num-01">___</span>, 
+            <span id="name-01">___</span> <span id="name-02">___</span> Abernathy was a smart and ambitious young girl
+            who wanted to be both a lawyer and a doctor "because a <span id="noun-01">___</span> can do anything". 
+            She was studying for law school at 16, and by 24, she had earned multiple doctorates from <span id="school-01">___</span>. 
+            However, by 32, suffering from burnout, she had turned to alcohol, became obsessed with her pet cat, and would randomly take to cutting pieces of her own <span id="body-part-01">___</span>. 
+            By the time she was 40, she had assumed her present state as a <span id="adjective-01">___</span>, <span id="adjective-02">___</span> lunatic, and mother of <span id="num-02">___</span> cats.
+        </p>
+        <img src="https://vignette.wikia.nocookie.net/simpsons/images/b/b5/230px-Eleanor_Abernathy.png/revision/latest?cb=20140817113422" alt="crazy cat lady from the Simpsons">
+    </main>
+    <footer>
+        <p>
+            created by Dave Trost. For similar work, see <a href="https://github.com/alchemycodelab"> Alchemy Code Lab</a>
+        </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
